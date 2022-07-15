@@ -6,7 +6,7 @@ export default function Home() {
       await navigator.share({
         title: "MDN",
         text: "Aprenda desenvolvimento web no MDN!",
-        url: "/campanha?type=asdijasidjasd&uuid=312321-231231-21312132",
+        url: "https://juntossomosmais.com.br/campanha?type=asdijasidjasd&uuid=312321-231231-21312132",
       });
     } catch (err) {
       alert(err);
